@@ -1,0 +1,9 @@
+namespace RemotingComponent
+{
+    [default_interface]
+    runtimeclass Remoter
+    {
+		Remoter();
+        Int32 MyProperty;
+    }
+}
